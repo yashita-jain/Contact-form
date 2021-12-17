@@ -1,0 +1,16 @@
+html
+  head
+    title= title
+  style 
+    include ../static/style.css  
+  body
+    //- alert(message)
+    div.h1
+      H1 Contact Us!
+    form(action= "/", method= "post", class= "myForm")
+      <input type="text" name="name"  class="input" placeholder="Enter your name..">
+      <input type="phone" name="phone" class="input" placeholder="Enter your contact no..">
+      <input type="email" name="email" class="input" placeholder="Enter your email..">
+      <input type="text" name="message" class="input message" size="100" placeholder="Your message here..">
+      <input type="submit" class="submit">
+    

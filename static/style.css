@@ -1,0 +1,42 @@
+body{
+    background-color: #1e3d59;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+.h1{display: flex;
+    margin: auto;
+    justify-content: center;
+    margin:20px;
+    font-size: 30px;
+}
+.myForm{
+    margin-top:50vh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    background-color:#f5f0e1 ;
+    border:2px solid bisque;
+    border-radius:1rem;
+
+}
+
+input{    width: 100%;
+          font-size: 20px;
+          padding: 10px;
+          margin:15px;
+}
+.message{
+height:8rem;
+}
+.submit{
+    background-color:#1e3d59 ;
+    width: 20%;
+    color: aliceblue;
+    border:2px solid #1e3d59;
+    border-radius: 1rem ;
+
+    }
